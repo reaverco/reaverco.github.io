@@ -1,0 +1,283 @@
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		font-size: 12.5pt;
+		line-height: 1.5em;
+	}
+
+	h2
+	{
+		font-size: 1.75em;
+	}
+
+	h3
+	{
+		font-size: 1.25em;
+	}
+
+	hr
+	{
+		top: 3em;
+		margin-bottom: 6em;
+	}
+
+	/* Section/Article */
+
+		section,
+		article,
+		.row > section,
+		.row > article
+		{
+			margin-bottom: 2em;
+		}
+
+			section:last-child,
+			article:last-child
+			{
+				margin-bottom: 0;
+			}
+
+			header
+			{
+			}
+
+				header > p
+				{
+					font-size: 1.25em;
+				}
+
+	/* Image */
+
+		.image
+		{
+		}
+
+			.image.featured
+			{
+				margin: 0 0 2em 0;
+			}
+
+			.image.left
+			{
+				margin: 0 1em 1em 0;
+			}
+
+			.image.centered
+			{
+				margin: 0 0 1em 0;
+			}
+
+	/* List */
+
+		ul
+		{
+		}
+
+			ul.actions
+			{
+			}
+
+				form ul.actions
+				{
+					margin-top: 0;
+				}
+
+				ul.actions li
+				{
+					display: block;
+					margin: 0.75em 0 0 0;
+				}
+
+				ul.actions li:first-child
+				{
+					margin-top: 0;
+				}
+
+			ul.menu
+			{
+				height: auto;
+				text-align: center;
+			}
+
+				ul.menu li
+				{
+					display: block;
+					border: 0;
+					padding: 0.75em 0 0 0;
+					margin: 0;
+				}
+
+				ul.menu li:first-child
+				{
+					padding-top: 0;
+				}
+
+			ul.icons
+			{
+				font-size: 1em;
+				padding: 0.35em 0.5em 0.35em 0.5em;
+			}
+
+				ul.icons li
+				{
+				}
+
+					ul.icons li a
+					{
+						width: 2.25em;
+					}
+
+	/* Button */
+
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			display: block;
+			padding: 0;
+			line-height: 3em;
+			width: 100%;
+		}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	.wrapper
+	{
+		padding: 3em 1em 3em 1em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding-bottom: 0;
+		background-attachment: scroll;
+	}
+
+		#header .inner
+		{
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		#header h1
+		{
+			font-size: 2.5em;
+		}
+
+			.homepage #header h1
+			{
+				font-size: 2em;
+			}
+
+		#header header > p
+		{
+			font-size: 1em;
+		}
+
+		#header hr
+		{
+			top: 1em;
+			margin-bottom: 2.5em;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+		#nav > ul > li.menu {
+			display: none;
+		}
+
+		#nav > ul > li > img {
+			margin-left: 3em;
+			margin-right: 3em;
+		}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 3em 2em 3em 2em;
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+		#sidebar > hr:first-of-type
+		{
+			display: block;
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+
+		#main > header
+		{
+			text-align: center;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-bottom: 3em;
+	}
+
+	@media only screen and (max-width: 590px) {
+		#footer .break
+		{
+			display: none;
+		}
+	}
+
+/*********************************************************************************/
+/* Carousel                                                                      */
+/*********************************************************************************/
+
+	.carousel
+	{
+		padding: 0.5em 0 0.5em 0;
+	}
+
+		.carousel .reel
+		{
+			padding: 0 0.5em 0 0.5em;
+		}
+
+		.carousel article
+		{
+			width: 14em;
+			padding-bottom: 2em;
+			margin: 0 0.5em 0 0;
+		}
+
+			.carousel article .image
+			{
+				margin-bottom: 2em;
+			}

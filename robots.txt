@@ -1,0 +1,7 @@
+User-agent: Googlebot-Image
+Allow: /assets/images/icons
+Disallow: /
+
+User-agent: Google Favicon
+Allow: /assets/images/icons
+Disallow:
